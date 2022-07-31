@@ -21,7 +21,7 @@ public class BonusCalculator {
 			salary += bonus;
 		}
 		// output the results
-		System.out.println("Your salary is $" + salary);
+		System.out.println("Your weekly salary is $" + salary);
 
 	}
 
