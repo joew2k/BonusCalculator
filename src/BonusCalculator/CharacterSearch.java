@@ -26,7 +26,8 @@ public class CharacterSearch {
 		
 		// Loop through the characters
 		for (int i = 0; i < text.length(); i++) {
-			if (searchedText== text.toUpperCase().charAt(i)) {
+			char currentLetter = text.charAt(i);
+			if (currentLetter == searchedText) {
 				charFound = true;
 				break;
 			}
