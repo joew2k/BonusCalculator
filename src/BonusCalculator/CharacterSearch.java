@@ -21,13 +21,13 @@ public class CharacterSearch {
 		String text = scanner.next();
 		scanner.close();
 		
-		char searchedText = 'A';
+//		char searchedText = 'A';
 		boolean charFound = false;
 		
 		// Loop through the characters
 		for (int i = 0; i < text.length(); i++) {
 			char currentLetter = text.charAt(i);
-			if (currentLetter == searchedText) {
+			if (currentLetter == 'A' || currentLetter == 'a') {
 				charFound = true;
 				break;
 			}
